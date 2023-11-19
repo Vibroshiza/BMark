@@ -1,0 +1,620 @@
+@font-face {
+    font-family: "Regular";
+    src: url(../fonts/NotoSerif-Regular.ttf); 
+}
+@font-face {
+    font-family: "Semi-bold";
+    src: url(../fonts/NotoSerif-SemiBold.ttf); 
+}
+@font-face {
+    font-family: "Extra-bold";
+    src: url(../fonts/NotoSerif-ExtraBold.ttf); 
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../fonts/NotoSerif-Bold.ttf); 
+}
+
+html,
+body {
+    font-family: 'Regular';
+}
+
+.background {
+    background-color: #FBEDDA;
+    padding-top: 1%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.col-logo {
+    width: 80px;
+}
+
+.btn {
+    color: white;
+    background-color: #13A6BA;
+    padding: 0.9rem 1.9rem;
+    font-family: 'Semi-Bold';
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn-square {
+    padding: 0.2rem 1.3rem;
+}
+
+.btn-purple {
+    background-color: #772D8B;
+}
+
+.btn-white {
+    background-color: white;
+    color: #677071;
+    border-style: solid;
+    border-color: #E0E2E3;
+    border-width: 0.05rem;
+}
+
+.col-3-btn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar-nav {
+    justify-content: space-between ;
+}
+
+.nav-link {
+    color: black;
+}
+
+.modal-content {
+    border-radius: 5rem;
+    padding: 5%;
+    background-color: #FBEDDA;
+}
+
+.fs-0 {
+    font-size: 3.7rem;
+}
+
+.fs-1-1 {
+    font-size: 3rem;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+.fs-3 {
+    font-size: 2rem;
+}
+
+.fs-8 {
+    font-size: 0.6rem;
+}
+
+.grey {
+    color: #677071;
+}
+
+.blue {
+    color: #13A6BA;
+}
+
+.light {
+    color: #CCCFD0;
+}
+
+.bold {
+    font-family: "Bold";
+}
+
+.thin {
+    font-family: 'Regular';
+}
+
+.modal-dialog {
+    max-width: 70%;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-form {
+    padding: 13% 3% 10% 3%;
+    display: flex;
+}
+
+.form-border {
+    background-color: white;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C8F3F9;
+    display: flex;
+    padding: 3%;
+    margin-right: 0%;
+    margin-left: auto;
+    max-width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-control {
+    border-style: none;
+}
+
+.top-5 {
+    top: 5%;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.top-65 {
+    top: 65%;
+}
+
+.top-80 {
+    top: 80%;
+}
+
+.top-minus {
+    top: -10%;
+}
+
+.start-minus {
+    left: -15%;
+}
+
+.start-70 {
+    left: 70%;
+}
+
+.start-7 {
+    left: 7%;
+}
+
+.end-minus {
+    right: -35%;
+}
+
+.end-5 {
+    right: 5%;
+}
+
+#modal-1 {
+    width: 70%;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-35 {
+    width: 35%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+.pad {
+    padding-top: 7rem;
+}
+
+.pad-sm {
+    padding-top: 2%;
+}
+
+.pad-lg {
+    padding-top: 15%;
+}
+
+.pad-mid {
+    padding-top: 8%;
+}
+
+.pad-bottom {
+    padding-bottom: 8rem;
+}
+
+.pad-bottom-sm {
+    padding-bottom: 4rem;
+}
+
+.marg {
+    margin-top:2.5rem;
+}
+
+.marg-lg {
+    margin-top:35rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+    max-height: 100%;
+}
+
+.inner-pad {
+    padding: 2% 5% ;
+}
+
+.inner-pad-lg {
+    padding: 10% 5% 0 5%;
+}
+
+.round {
+    border-radius: 3rem;
+}
+
+.round-sm {
+    border-radius: 1rem;
+}
+
+.round-smaller {
+    border-radius: 0.3rem;
+}
+
+.img-crop {
+    height: 380px;
+}
+
+.round-top {
+    border-radius: 2rem 2rem 0 0;
+}
+
+.object-fit-cover {
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 49%;
+  width: 7%;
+  height: 10%;
+  background-color: #772D8B;
+  opacity: 0.3;
+  border-radius: 0.5rem;
+}
+
+#element-1 {
+    height: 5%;
+    width: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.height-all {
+    max-height: max-content;
+}
+
+.height-15 {
+    height: 15%;
+}
+
+.height-90 {
+    height: 90%;
+}
+
+.height-120 {
+    height: 120%;
+}
+
+.gutter-sm {
+    --bs-gutter-x: 0.3rem;
+}
+
+.size-sm {
+    height: 50%;
+    width: auto;
+}
+
+.align-items-center {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.marg-left-sm {
+    margin-left: 0.5rem;
+}
+
+.navbar-toggler {
+    border: 1px solid black;
+}
+
+.col-9,
+.col-3 {
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.slider-pic {
+    height: 50%;
+}
+
+.red-house-block {
+    align-items: center;
+    display: flex;
+}
+
+
+@media (max-width: 1260px) {
+    #red-stripe {
+        top: 35%;
+    }
+}
+
+@media (max-width:1200px) {
+    .fs-1-1 {
+        font-size: 1.8rem;
+    }
+
+    .fs-1 {
+        font-size: 1.5rem !important;
+    }
+
+    #man {
+        left: 1%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .navbar-9,
+    .col-3 {
+        width: 20%;
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .col-3-btn {
+        display: block;
+    }
+
+    .fs-0 {
+        font-size: 3rem;
+    }
+
+    .modal-form {
+        display: block;
+    }
+
+    .col-4,
+    .col-8 {
+        width: 100%;
+    }
+
+    .people {
+        width: 50%;
+        margin: auto;
+    }
+
+    .fs-5 {
+        font-size: 1rem !important;
+    }
+
+    .fs-6 {
+        font-size: 0.7rem !important;
+    }
+
+    .col-3 {
+        text-align: left;
+    }
+}
+
+@media (max-width:768px) {
+    #red-stripe {
+        height: 4%;
+    }
+
+    #circle,
+    #dots {
+        height: 20%;
+    }
+
+    .width-70 {
+        width: 90%;
+    }
+
+    .man {
+        flex-direction: column;
+    }
+
+    #man {
+        height: 50%;
+        right: 4%;
+        left: auto;
+    }
+
+    .footer-row {
+        display: block;
+    }
+
+    .logo-footer {
+        width: 100%;
+    }
+
+    .media-footer {
+        width: 100%;
+        padding-top: 5rem;
+    }
+
+    .pad-mid {
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-9,
+    .col-3 {
+        width: 30%;
+    }
+
+    .fs-0 {
+        font-size: 2rem;
+    }
+
+    .form-border {
+        display: block;
+        background-color: transparent;
+        border-style: none;
+    }
+
+    .form-control {
+        border-style: solid;
+        border-color: #C8F3F9;
+        margin-bottom: 1rem;
+    }
+
+    .modal-btn {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .btn {
+        padding: 0.5rem 1.3rem;
+    }
+
+    .fs-7 {
+        font-size: 0.8rem;
+    }
+    
+    .fs-3 {
+        font-size: 1.5rem;
+    }
+    
+    .fs-8 {
+        font-size: 0.6rem;
+    }
+
+    .fs-6 {
+        font-size: 0.9rem !important;
+    }
+
+    .pad{
+        padding-top: 4rem;
+    }
+
+    .pad-lg {
+        padding-top: 8%;
+    }
+
+    .benefit-pic {
+        display: none;
+    }
+
+    .benefit-text {
+        width: 100%;
+    }
+
+    .San-Diego {
+        display: block;
+        padding-top: 10rem;
+    }
+
+    .San-Diego-cards {
+        padding-top: 7rem;
+    }
+
+    .San-Diego-CA {
+        left: 0;
+    }
+
+    .people {
+        width: fit-content;
+    }
+
+    #Google {
+        display: none;
+    }
+
+    #man {
+        display: none;
+    }
+
+    .pad-bottom {
+        padding-bottom: 4rem;
+    }
+
+    .logo-footer,
+    .media-footer {
+        width: 100%;
+    }
+
+    .social {
+        width: 25%;
+    }
+}
+
+@media (max-width: 465px) {
+    .fs-0 {
+        font-size: 1.5rem;
+    }
+
+    #red-stripe {
+        top: 25%;
+    }
+
+    .benefit {
+        display: block;
+    }
+
+    .red-house-text {
+        padding-top: 5rem;
+    }
+
+    .pink-circle {
+        display: none;
+    }
+}
